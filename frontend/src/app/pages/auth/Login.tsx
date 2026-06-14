@@ -45,9 +45,9 @@ export function Login() {
       <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-900 rounded-lg space-y-1.5">
         <p className="text-xs font-semibold text-blue-800 dark:text-blue-400 uppercase tracking-wide">Demo Credentials</p>
         <div className="flex flex-col gap-1">
-          <p className="text-xs text-blue-800 dark:text-blue-400">
+          {/* <p className="text-xs text-blue-800 dark:text-blue-400">
             <span className="font-medium">Admin:</span> <code className="bg-blue-100 dark:bg-blue-900 px-1 rounded">admin@eduai.com</code> / <code className="bg-blue-100 dark:bg-blue-900 px-1 rounded">admin</code>
-          </p>
+          </p> */}
           <p className="text-xs text-blue-800 dark:text-blue-400">
             <span className="font-medium">Teacher:</span> <code className="bg-blue-100 dark:bg-blue-900 px-1 rounded">teacher@eduai.com</code> / <code className="bg-blue-100 dark:bg-blue-900 px-1 rounded">teacher</code>
           </p>
