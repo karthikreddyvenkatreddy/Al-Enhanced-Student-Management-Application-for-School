@@ -1,0 +1,19 @@
+Decision Tree Student Performance Classifier
+Accuracy: 0.8333
+
+Feature importances:
+- attendance_percentage: 0.5412
+- average_marks: 0.0
+- assignment_score: 0.4588
+- marks_count: 0.0
+
+Classification report:
+                   precision    recall  f1-score   support
+
+          At Risk       1.00      0.67      0.80         3
+Average Performer       0.67      1.00      0.80         2
+   High Performer       1.00      1.00      1.00         1
+
+         accuracy                           0.83         6
+        macro avg       0.89      0.89      0.87         6
+     weighted avg       0.89      0.83      0.83         6
